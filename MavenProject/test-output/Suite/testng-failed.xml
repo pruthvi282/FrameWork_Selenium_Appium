@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test runner 1(failed)" parallel="tests">
+    <classes>
+      <class name="com.erp.SMrail.ProductTest.ProductTest">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="configAfterClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configAfterMethod"/>
+        </methods>
+      </class> <!-- com.erp.SMrail.ProductTest.ProductTest -->
+      <class name="com.erp.SMrail.ProductTest.NavigatToProductImageInfoTC09">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMtd"/>
+          <include name="configAfterMethod"/>
+        </methods>
+      </class> <!-- com.erp.SMrail.ProductTest.NavigatToProductImageInfoTC09 -->
+      <class name="com.erp.SMrail.ProductTest.NavigateToPriceTC07">
+        <methods>
+          <include name="NavigateToPrice"/>
+        </methods>
+      </class> <!-- com.erp.SMrail.ProductTest.NavigateToPriceTC07 -->
+      <class name="com.erp.SMrail.ProductTest.NavigateToStockInfoTC08">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="configAfterClass"/>
+          <include name="closeDb"/>
+          <include name="configBeforeMtd"/>
+          <include name="connectToDB"/>
+          <include name="configAfterMethod"/>
+        </methods>
+      </class> <!-- com.erp.SMrail.ProductTest.NavigateToStockInfoTC08 -->
+    </classes>
+  </test> <!-- Test runner 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

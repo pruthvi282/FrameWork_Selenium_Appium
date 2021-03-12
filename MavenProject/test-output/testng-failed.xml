@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.erp.SMrail.ProductTest.NavigatToProductImageInfoTC09">
+        <methods>
+          <include name="NavigatToProductImageInfo"/>
+          <include name="configBeforeClass"/>
+          <include name="configAfterClass"/>
+          <include name="closeDb"/>
+          <include name="configBeforeMtd"/>
+          <include name="connectToDB"/>
+          <include name="configAfterMethod"/>
+        </methods>
+      </class> <!-- com.erp.SMrail.ProductTest.NavigatToProductImageInfoTC09 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

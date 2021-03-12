@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74806" started-at="2021-03-12T06:49:03Z" finished-at="2021-03-12T06:50:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74806" started-at="2021-03-12T06:49:03Z" finished-at="2021-03-12T06:50:17Z">
+      <class name="com.erp.SMrail.ProductTest.ProductTest">
+        <test-method status="PASS" signature="connectToDB()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="connectToDB" is-config="true" duration-ms="898" started-at="2021-03-12T12:19:02Z" finished-at="2021-03-12T12:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method status="PASS" signature="configBeforeClass()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="configBeforeClass" is-config="true" duration-ms="18948" started-at="2021-03-12T12:19:03Z" finished-at="2021-03-12T12:19:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeClass -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="configBeforeMtd" is-config="true" duration-ms="5865" started-at="2021-03-12T12:19:22Z" finished-at="2021-03-12T12:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="ProductTest1()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="ProductTest1" duration-ms="33868" started-at="2021-03-12T12:19:28Z" finished-at="2021-03-12T12:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductTest1 -->
+        <test-method status="PASS" signature="configAfterMethod()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="configAfterMethod" is-config="true" duration-ms="13789" started-at="2021-03-12T12:20:02Z" finished-at="2021-03-12T12:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMethod -->
+        <test-method status="PASS" signature="configAfterClass()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="configAfterClass" is-config="true" duration-ms="1633" started-at="2021-03-12T12:20:16Z" finished-at="2021-03-12T12:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterClass -->
+        <test-method status="PASS" signature="closeDb()[pri:0, instance:com.erp.SMrail.ProductTest.ProductTest@68c4039c]" name="closeDb" is-config="true" duration-ms="82" started-at="2021-03-12T12:20:18Z" finished-at="2021-03-12T12:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDb -->
+      </class> <!-- com.erp.SMrail.ProductTest.ProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
