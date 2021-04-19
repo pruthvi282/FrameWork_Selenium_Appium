@@ -4,14 +4,11 @@ import org.testng.annotations.BeforeClass;
 
 public class Test {
 @org.testng.annotations.Test
-public void launch()
+public static void main(String[] args)
 {
 	
 	
-	System.out.println(System.getProperty("url"));
-	System.out.println(System.getProperty("username"));
-	System.out.println(System.getProperty("password"));
-	
+	System.out.println("hello");
 	
 }
 	

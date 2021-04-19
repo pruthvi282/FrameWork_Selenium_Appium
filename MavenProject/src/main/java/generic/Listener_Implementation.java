@@ -10,7 +10,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
- public class Listener_Implementation implements ITestListener{
+  public class Listener_Implementation implements ITestListener{
 
 	 ExtentReports report;
 	 ExtentTest test;
@@ -35,11 +35,11 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 	    }		
 
 			
-	    public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {					
+	    /*public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {					
 	        				
 	        		
 	    }		
-
+*/
 	  		
 	    public void onTestFailure(ITestResult result) {	
 			WebDriverUtilis web=new WebDriverUtilis();
@@ -48,7 +48,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 			try {
 				web.Take_Screen_Shot( result.getMethod().getMethodName());
 			} catch (Throwable e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}		
